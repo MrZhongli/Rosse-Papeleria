@@ -1,0 +1,480 @@
+@import url('https://fonts.googleapis.com/css2?family=Shizuru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=EB+Garamond&family=Lora&family=Montserrat:wght@400;600&family=Ubuntu&display=swap');
+
+
+
+
+/*
+    font-family: 'Bebas Neue', cursive;
+
+    font-family: 'EB Garamond', serif;
+
+    font-family: 'Lora', serif;
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-family: 'Ubuntu', sans-serif;*/
+*{
+    box-sizing: 0;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.title_letter{
+    font-family: 'Bebas Neue', cursive;
+}
+.content_letter{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: #000 !important;
+
+}
+
+/*index*/
+.main_container{
+    height: 100vh;
+}
+
+
+
+.main_container div img{
+    width: 400px;
+    height: 400px;
+}
+
+.main_container div{
+    margin: 10px;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+}
+
+.link-banner div img{
+    width: 400px;
+    height: 400px;
+}
+
+.banner_welcome{
+    background-image: url('fotos/banner3.jpg');
+    height: 300px;
+}
+
+/*footer*/
+.email-p{
+      margin-top: 10px;
+  color: #7a7a7a;
+  font-weight: 600;
+}
+
+.footer{
+    background-color: map-get($color3, pink);
+    width: 100%;
+    padding: 50px 0px;
+}
+
+.container__footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+}
+.box__footer{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    }
+ .logo img{
+    width: 180px;
+ }
+.box__footer h2{
+    margin-bottom: 30px;
+    color: #343434;
+    font-weight: 700;
+}
+.box__footer a{
+    margin-top: 10px;
+    color: #7a7a7a;
+    font-weight: 600; 
+}
+.fab{
+     font-size: 1.25rem;
+}
+.box__footer a{
+        margin-top: 10px;
+        color: #7a7a7a;
+        font-weight: 600;
+}
+.box__footer a:hover{
+            opacity: 0.8;
+}
+.terms{
+   max-width: 350px;
+   margin-top: -10px;
+   font-weight: 500;
+   color: #7a7a7a;
+   font-size: 18px;
+} 
+
+
+.terms .logo img {
+    width: 100px;
+    border-radius: 50%;
+ }
+
+.box__copyright{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 40px;
+    }
+..box__copyright P{
+    margin-top: 20px;
+    color: #7a7a7a;
+    
+}
+    hr{
+-        border: none;
+        height: 1px;
+        background-color: #7a7a7a; 
+    }
+
+/*galery*/
+.galery_container {
+    margin: auto;
+}
+.galery_container div img{
+    width: 300px;
+    height: 300px;
+}
+
+
+
+
+/*contacto*/
+.mensajeIcon{
+    width:  300px;
+    height: 300px;
+    border-radius: 50%;
+}
+/*calatogo*/
+
+.description{
+    height: 50px;
+    overflow: hidden;
+    transition: height .2s ease-in .1s;
+}
+
+.description:hover{
+    height: 170px;
+}
+
+
+.car{
+    text-decoration: none;
+    border: none ;
+    font-size: 30px ;
+}
+
+.car i{
+    color: #fff;
+}
+
+
+.product-buttom a{
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.other-products img{
+    width: 300px;
+    height: 400px;
+}
+
+
+.item-img{
+    width: 300px;
+    height: 400px;
+}
+
+
+/*main catalogue estilos*/
+
+
+
+.card{
+    width:300px;
+    height: 500px;
+}
+
+
+/*carrito */
+
+.table_productos{
+    display: flex;
+    height: 150px;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+}
+.table-cantidad{
+    width: ;
+    margin-left: 100px;
+}
+
+
+.img-product{
+    width: 100px;
+    height: 120px;
+}
+
+.title{
+    text-align: center;
+}
+
+.header{  
+    height:120px;
+    background-color: #fcc1c7;
+    transition-duration: .5s;
+
+    
+}
+.car-icon{
+    font-size: 20px;
+}
+
+.footer{
+    background-color: #fcc1c7;
+}
+
+
+.ig-letra{
+    transition: .3s;
+    font-family: 'Shizuru', cursive;
+    font-size: 30px;
+    text-decoration: none;
+    color: #fff;
+}
+.ig-letra:hover{
+    color: #fd7e14;
+}
+
+.ig{
+    font-size: 40px;
+    text-decoration: none;
+    background-color: transparent;
+    color: #fff;
+
+}  
+
+/* BOTON CONFIRMAR */
+.button {
+ padding: 1.3em 3em;
+ font-size: 12px;
+ text-transform: uppercase;
+ letter-spacing: 2.5px;
+ font-weight: 500;
+ color: #000;
+ background-color: #fff;
+ border: none;
+ border-radius: 45px;
+ box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+ transition: all 0.3s ease 0s;
+ cursor: pointer;
+ outline: none;
+}
+
+.button:hover {
+ background-color: #2EE59D;
+ box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+ color: #fff;
+ transform: translateY(-7px);
+}
+
+.button:active {
+ transform: translateY(-1px);
+}
+
+/* BOTON VACIAR */
+.button-v {
+ padding: 1.3em 3em;
+ font-size: 12px;
+ text-transform: uppercase;
+ letter-spacing: 2.5px;
+ font-weight: 500;
+ color: #000;
+ background-color: #fff;
+ border: none;
+ border-radius: 45px;
+ box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+ transition: all 0.3s ease 0s;
+ cursor: pointer;
+ outline: none;
+}
+
+.button-v:hover {
+ background-color: #ff3939#ff3939;
+ box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+ color: #fff;
+ transform: translateY(-7px);
+}
+
+.button-v:active {
+ transform: translateY(-1px);
+}
+
+
+.bg-main{
+    background-color: #fcc1c7;
+}
+
+.btnCompra{
+    background-color: #933cc4;
+}
+
+.btnCompra:hover{
+background-color:#ad75cc;
+}
+
+.card-body{
+    border-radius: 40px 50px;
+    background-color: #191b2a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 17rem;
+}
+.card-body img{
+    border-radius: 20px 20px 20px 20px;
+}
+
+.product-letter{
+    color: #fff;
+}
+
+/* From cssbuttons.io */
+.consulta-boton {
+ --color: #e5d;
+ font-family: inherit;
+ display: inline-block;
+ width: 8em;
+ height: 2.6em;
+ line-height: 2.5em;
+ margin: 20px;
+ position: relative;
+ overflow: hidden;
+ border: 1px solid var(--color);
+ transition: color .5s;
+ z-index: 1;
+ font-size: 17px;
+ border-radius: 6px;
+ font-weight: 500;
+ color: var(--color);
+}
+
+.consulta-boton:before {
+ content: "";
+ position: absolute;
+ z-index: -1;
+ background: var(--color);
+ height: 150px;
+ width: 200px;
+ border-radius: 50%;
+}
+
+.consulta-boton.consulta-boton:hover {
+ color: #fff;
+}
+
+.consulta-boton:before {
+ top: 100%;
+ left: 100%;
+ transition: all .7s;
+}
+
+.consulta-boton:hover:before {
+ top: -30px;
+ left: -30px;
+}
+
+.consulta-boton:active:before {
+ background: #3a0ca3;
+ transition: background 0s;
+}
+/* From cssbuttons.io by @NorthFishHasNa */
+#btnEnviar {
+ display: inline-block;
+ border-radius: 4px;
+ background-color: #3d405b;
+ border: none;
+ color: #FFFFFF;
+ text-align: center;
+ font-size: 17px;
+ padding: 16px;
+ width: 130px;
+ transition: all 0.5s;
+ cursor: pointer;
+ margin: 5px;
+}
+
+#btnEnviar span {
+ cursor: pointer;
+ display: inline-block;
+ position: relative;
+ transition: 0.5s;
+}
+#btnEnviar span:after {
+ content: '»';
+ position: absolute;
+ opacity: 0;
+ top: 0;
+ right: -15px;
+ transition: 0.5s;
+}
+
+#btnEnviar:hover span {
+ padding-right: 15px;
+}
+
+#btnEnviar:hover span:after {
+ opacity: 1;
+ right: 0;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+input[type=number] { -moz-appearance:textfield; }
+
+.social_media{
+    background-image: url('fotos/socialmedia.jpg');
+    height: 400px;
+}
+
+
+
+
+        @media all and (max-width: 820px){
+
+            .nav-items{
+              display: none;  
+            }
+           
+        }
+        @media all and (min-width: 820px){
+
+            .btn-car{
+              display: none;  
+            }
+           
+        }
