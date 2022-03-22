@@ -5,8 +5,8 @@ const carrito=[];
 const cantidadCarrito= document.getElementById('cantidad');
 const productosCarrito= document.getElementById('productosCarrito');
 const confirmar= document.getElementById('confirmar');
-//Saldo cliente
+const totalCarritoInterfaz=document.getElementById('totalCarrito');
+//Saldo cliente prueba
 let saldoCliente=10000;
 
-const totalCarritoInterfaz=document.getElementById('totalCarrito');
 

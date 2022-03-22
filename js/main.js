@@ -94,12 +94,10 @@ provFiltro.onchange=()=>{
 })
 .catch(err=> console.log(err))
 
-
-    // alertaEstado(mensaje, "success")
   }).catch((mensaje) => {
     alertaEstado(mensaje, "error")
   })
-  // vaciarCarrito();
+  
 }
 
 
